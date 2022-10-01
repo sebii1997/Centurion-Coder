@@ -4,38 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png"> 
     <link rel="stylesheet" href="../css/estilos2.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/58c4914a35.js" crossorigin="anonymous"></script>
     <title>Autoservicio</title>
 </head>
 <body>
-    <div class="grid">
-    <header>
-        <div>
-            <img src="../images/logo_transparent.png" alt="logo" type="button" href="../index.html">
-        </div>
+    <header class="container-fluid">
+        <div class="row justify-content-center">
+            <img class="col-2 animate__animated animate__pulse" src="../images/logo_transparent.png" alt="logo" type="button" href="../index.html">        
         <!--logo del local de autoservicio -->
-        <nav>
-            <ul class="fuentes">
+        <nav>           
+            <ul class="nav justify-content-center fuentes">
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="almacen.html">Almacen</a>
-                    <ul class="sub-fuentes">
-                        <li><a href="">Harinas</a></li>
-                        <li><a href="">Carnes</a></li>
-                        <li><a href="">Golosinas</a></li>
-                    </ul>
-                </li>
-                <li><a href="bebidas.html">Bebidas</a>
-                    <ul class="sub-fuentes">
-                        <li><a href="">Bebidas sin alcohol</a></li>
-                        <li><a href="">Bebidas con alcohol</a></li>
-                    </ul>
-                </li>
+                <li><a href="./almacen.html">Almacen</a></li>
+                <li><a href="./bebidas.html">Bebidas</a></li>
                 <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
             </ul>            
         </nav>
-     </header>
+    </header>    
 
      
      <main>
@@ -52,7 +42,7 @@
      <footer class="footer">
         <div class="footer2">
             <section>
-                <img class="imagenClase" src="../images/logo_transparent.png" alt="Logo autoservicio">                
+                <img class="imagenClase col-8" src="../images/logo_transparent.png" alt="Logo autoservicio">                
             </section>
         </div>
             
@@ -62,16 +52,17 @@
                 <li><p>1155554893</p></li>
                 <li><p>1155554973</p></li>
                 <li><p>Enrique santamarina 186 - Lunes a viernes de 8 a 13hs y de 15 a 19hs</p></li>
-                <li><p>contacto@productosparaelhogar.com</p></li>
+                <li><p>contacto <br> @productosparaelhogar.com</p></li>
                 <li><p>Productoshome23</p></li>
                 <li><p>Productos home</p></li>
             </ul>
             <p class="texto">Todos los derechos reservados®</p>            
         </div>
+               
         
-                
      </footer>
-    </div>
+    
 
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
